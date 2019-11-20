@@ -1,0 +1,18 @@
+html {
+    @include mq('xsmall'){
+        font-size: 40%;
+    }
+    @include mq('small') {
+        font-size: 45%;
+    }
+    @include mq('medium') {
+        font-size: 55%;
+    } 
+    @include mq('large') {
+        font-size: 62.5%;
+    }
+}
+
+body {
+    font: 1.6rem/1.5 Helvetica, sans-serif;
+}

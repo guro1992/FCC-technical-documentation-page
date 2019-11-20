@@ -1,0 +1,14 @@
+{
+  "name": "fcc-technical-documentation-page",
+  "version": "1.0.0",
+  "description": "writing for FCC certification",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass assets/scss/main.scss assets/css/main.css -w"
+  },
+  "author": "guram dgebuadze",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
