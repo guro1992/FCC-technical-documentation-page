@@ -1,0 +1,33 @@
+#main-doc {
+    grid-area: 1/2/1/3;
+    padding: 30px; 
+    text-align: justify;
+} 
+
+header {
+    font-size: 3.5rem;
+}
+
+#main-doc article {
+    padding: 2rem 0 2rem 2rem;
+}
+
+#main-doc ul li  { 
+    margin-top: 2rem;
+}
+
+#main-doc code {
+    display: block;
+    margin: 1rem;
+    padding: 1.5rem;
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+#main-doc pre {
+    margin: 0;
+}
+
+
