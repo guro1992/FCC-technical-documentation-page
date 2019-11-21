@@ -1,16 +1,13 @@
 html {
     @include mq('xsmall'){
-        font-size: 40%;
-    }
-    @include mq('small') {
         font-size: 45%;
     }
-    @include mq('medium') {
+    @include mq('small') {
         font-size: 55%;
-    } 
-    @include mq('large') {
-        font-size: 62.5%;
     }
+    @include mq('medium') {
+        font-size: 62.5%;
+    } 
 }
 
 body {

@@ -28,6 +28,10 @@
         @media screen and (min-width: $sm) {
             @content;
         }
+    } @else if $break == 'medium' {
+        @media screen and (min-width: $md) {
+            @content; 
+        }
     } @else if $break == 'large' {
         @media screen and (min-width: $lg) {
             @content; 
