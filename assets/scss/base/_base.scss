@@ -1,7 +1,4 @@
 html {
-    @include mq('xsmall'){
-        font-size: 45%;
-    }
     @include mq('small') {
         font-size: 55%;
     }
@@ -9,7 +6,13 @@ html {
         font-size: 62.5%;
     } 
 }
-
+    
 body {
     font: 1.6rem/1.5 Helvetica, sans-serif;
 }
+
+@media only screen and (max-width: 576px) {
+    html {
+        font-size: 45%;
+    }   
+} 

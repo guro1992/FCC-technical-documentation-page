@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- FCC link -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -23,18 +24,18 @@
             <header>JS Documentation</header>
             <ul>
                 <li><a href="#Introduction" class="nav-link">Introduction</a></li>
-                <li><a href="#What-you-should-already-know" class="nav-link">What you should already know</a></li>
-                <li><a href="#JavaScript-and-Java" class="nav-link">JavaScript and Java</a></li>
-                <li><a href="#Hello-world" class="nav-link">Hello world</a></li>
+                <li><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></li>
+                <li><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
+                <li><a href="#Hello_world" class="nav-link">Hello world</a></li>
                 <li><a href="#Variables" class="nav-link">Variables</a></li>
-                <li><a href="#Declaring-variables" class="nav-link">Declaring variables</a></li>
-                <li><a href="#Variable-scope" class="nav-link">Variable scope</a></li>
-                <li><a href="#Global-variables" class="nav-link">Global variables</a></li>
+                <li><a href="#Declaring_variables" class="nav-link">Declaring variables</a></li>
+                <li><a href="#Variable_scope" class="nav-link">Variable scope</a></li>
+                <li><a href="#Global_variables" class="nav-link">Global variables</a></li>
                 <li><a href="#Constants" class="nav-link">Constants</a></li>
-                <li><a href="#Data-types" class="nav-link">Data types</a></li>
-                <li><a href="#if-else-statement" class="nav-link">if...else statement</a></li>
-                <li><a href="#while-statement" class="nav-link">while statement</a></li>
-                <li><a href="#Function-declarations" class="nav-link">Function declarations</a></li>
+                <li><a href="#Data_types" class="nav-link">Data types</a></li>
+                <li><a href="#if...else_statement" class="nav-link">if...else statement</a></li>
+                <li><a href="#while_statement" class="nav-link">while statement</a></li>
+                <li><a href="#Function_declarations" class="nav-link">Function declarations</a></li>
                 <li><a href="#Reference" class="nav-link">Reference</a></li>
             </ul>  
             </div>
@@ -64,7 +65,7 @@
                     </ul>  
                 </article>  
             </section>
-            <section class="main-section" id="What-you-should-already-know">
+            <section class="main-section" id="What_you_should_already_know">
                 <header>What you should already know</header>
                 <article>
                     <p>This guide assumes you have the following basic background:
@@ -82,7 +83,7 @@
                     </ul>
                 </article>
             </section>
-            <section class="main-section" id="JavaScript-and-Java">
+            <section class="main-section" id="JavaScript_and_Java">
                 <header>JavaScript and Java</header>
                 <article>
                     <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's 
@@ -100,7 +101,7 @@
                     </p>
                 </article>
             </section>
-            <section class="main-section" id="Hello-world">
+            <section class="main-section" id="Hello_world">
                 <header>Hello world</header>
                 <article>
                     <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
@@ -123,7 +124,7 @@
                     </p>
                 </article>
             </section>
-            <section class="main-section" id="Declaring-variables">
+            <section class="main-section" id="Declaring_variables">
                 <header>Declaring variables</header>
                 <article>
                     <p>You can declare a variable in three ways:</p>
@@ -138,7 +139,7 @@
                     <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
                 </article>
             </section>
-            <section class="main-section" id="Variable-scope">
+            <section class="main-section" id="Variable_scope">
                 <header>Variable scope</header>
                 <article>
                     <P>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. 
@@ -153,7 +154,7 @@
                     <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not <br>defined</code>
                 </article>
             </section>
-            <section class="main-section" id="Global-variables">
+            <section class="main-section" id="Global_variables">
                 <header>Global variables</header>
                 <article>
                     <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables 
@@ -187,7 +188,7 @@
                     <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
                 </article>
             </section>
-            <section class="main-section" id="Data-types">
+            <section class="main-section" id="Data_types">
                 <header>Data types</header>
                 <article>
                     <p>The latest ECMAScript standard defines seven data types:</p>
@@ -209,7 +210,7 @@
                     </p>
                 </article>
             </section>
-            <section class="main-section" id="if-else-statement">
+            <section class="main-section" id="if...else_statement">
                 <header>if...else statement</header>
                 <article>
                     <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is 
@@ -240,7 +241,7 @@ statement_4_runs_if_condition_is_false; }</code></pre>
                     <code>if ((x = y)) { /* statements here */ }</code>
                 </article>
             </section>
-            <section class="main-section" id="while-statement">
+            <section class="main-section" id="while_statement">
                 <header>while statement</header>
                 <article>
                     <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
@@ -264,7 +265,7 @@ statement_4_runs_if_condition_is_false; }</code></pre>
                     <p>After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.</p>
                 </article>
             </section>
-            <section class="main-section" id="Function-declarations">
+            <section class="main-section" id="Function_declarations">
                 <header>Function declarations</header>
                 <article>
                     <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>

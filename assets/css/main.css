@@ -1,19 +1,19 @@
-@media screen and (max-width: 576px) {
-  html {
-    font-size: 45%; } }
-
-@media screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   html {
     font-size: 55%; } }
 
-@media screen and (min-width: 825px) {
+@media only screen and (min-width: 825px) {
   html {
     font-size: 62.5%; } }
 
 body {
   font: 1.6rem/1.5 Helvetica, sans-serif; }
 
-@media screen and (min-width: 825px) {
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 45%; } }
+
+@media only screen and (min-width: 825px) {
   .wrapper {
     display: grid;
     grid-template-columns: 2fr 7fr; } }
@@ -43,10 +43,10 @@ body {
   color: #fff;
   z-index: 1000;
   text-align: center; }
-  @media screen and (min-width: 825px) {
+  @media only screen and (min-width: 825px) {
     #navbar header {
       font-size: 2.5rem; } }
-  @media screen and (min-width: 992px) {
+  @media only screen and (min-width: 992px) {
     #navbar header {
       font-size: 3rem; } }
 
@@ -81,7 +81,7 @@ body {
   margin-top: 30vh;
   padding: 10px;
   text-align: justify; }
-  @media screen and (min-width: 825px) {
+  @media only screen and (min-width: 825px) {
     #main-doc {
       grid-area: 1/2/1/3;
       margin-top: 0; } }
